@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mentorship Platform SLIET</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -112,8 +113,6 @@
 
         </div>
 
-
-
         <!-- second section is starting from here -->
         <div class="second--section">
             <div class="heading--badge">Welcome to MentorHub</div>
@@ -134,48 +133,8 @@
                 <div class="redirect-btn">See All</div>
             </div>
 
-            <div class="cards--group">
-                <div class="card">
-                    <img src="./images/mentors/director-sahab.jpeg" alt="" class="card--image" />
-                    <div class="card--content">
-                        <div class="profile">
-                            <span>Dr. Manikant Paswan</span>
-                            <span>Director</span>
-                        </div>
-                        <div class="view--btn">View</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/mentors/director-sahab.jpeg" alt="" class="card--image" />
-                    <div class="card--content">
-                        <div class="profile">
-                            <span>Dr. Birmohan Singh</span>
-                            <span>Professor</span>
-                        </div>
-                        <div class="view--btn">View</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/mentors/director-sahab.jpeg" alt="" class="card--image" />
-                    <div class="card--content">
-                        <div class="profile">
-                            <span>Dr. Manikant Paswan</span>
-                            <span>Director</span>
-                        </div>
-                        <div class="view--btn">View</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/mentors/director-sahab.jpeg" alt="" class="card--image" />
-                    <div class="card--content">
-                        <div class="profile">
-                            <span>Dr. Birmohan Singh</span>
-                            <span>Professor</span>
-                        </div>
-                        <div class="view--btn">View</div>
-                    </div>
-                </div>
-            </div>
+            <!-- retrieving the data of mentors from the data file -->
+            <div class="cards--group" id="mentor-data-container"></div>
 
             <div class="third--heading">
                 <div class="third--titles">
@@ -187,48 +146,7 @@
                 <div class="redirect-btn">See All</div>
             </div>
 
-            <div class="cards--group">
-                <div class="card">
-                    <img src="./images/category/data-science.png" alt="" class="card--image" />
-                    <div class="card--content">
-                        <div class="profile">
-                            <span>Data Science</span>
-                            <span>65 Bookings</span>
-                        </div>
-                        <div class="view--btn">View</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/category/machine-learning.png" alt="" class="card--image" />
-                    <div class="card--content">
-                        <div class="profile">
-                            <span>Machine Learning</span>
-                            <span>35 Bookings</span>
-                        </div>
-                        <div class="view--btn">View</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/category/website-development.png" alt="" class="card--image" />
-                    <div class="card--content">
-                        <div class="profile">
-                            <span>Web Development</span>
-                            <span>254 Bookings</span>
-                        </div>
-                        <div class="view--btn">View</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/category/cybersecurity.png" alt="" class="card--image" />
-                    <div class="card--content">
-                        <div class="profile">
-                            <span>Cyber Security</span>
-                            <span>78 Bookings</span>
-                        </div>
-                        <div class="view--btn">View</div>
-                    </div>
-                </div>
-            </div>
+            <div class="cards--group" id="mentor-category-container"></div>
 
             <div class="yellow--card">
                 <div class="yellow--card-title">Meet Your College Mentor</div>

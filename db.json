@@ -1,0 +1,46 @@
+{
+    "mentorData": [
+      {
+        "name": "Dr. Manikant Paswan",
+        "title": "Director",
+        "image": "./images/mentors/director-sahab.jpeg"
+      },
+      {
+        "name": "Dr. Birmohan Singh",
+        "title": "Professor",
+        "image": "./images/mentors/director-sahab.jpeg"
+      },
+      {
+        "name": "Dr. Manikant Paswan",
+        "title": "Director",
+        "image": "./images/mentors/director-sahab.jpeg"
+      },
+      {
+        "name": "Dr. Birmohan Singh",
+        "title": "Professor",
+        "image": "./images/mentors/director-sahab.jpeg"
+      }
+    ],
+    "mentorCategory":[
+      {
+        "image": "./images/category/data-science.png",
+        "title": "Data Science",
+        "booking": "65 Bookings"
+      },
+      {
+        "image": "./images/category/machine-learning.png",
+        "title": "Machine Learning",
+        "booking": "35 Bookings"
+      },
+      {
+        "image": "./images/category/website-development.png",
+        "title": "Web Development",
+        "booking": "254 Bookings"
+      },
+      {
+        "image": "./images/category/cybersecurity.png",
+        "title": "Cyber Security",
+        "booking": "78 Bookings"
+      }
+    ]
+  }
