@@ -52,6 +52,11 @@ body {
   font-weight: 500;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
 .navbar .brand {
   font-size: 1.5rem;
   width: 180px;
@@ -377,18 +382,6 @@ body {
   cursor: pointer;
 }
 
-/* Responsive styles */
-
-/* Mobile (max-width: 768px) */
-@media screen and (max-width: 768px) {
-  /* here responsive code */
-}
-
-/* Tablet (max-width: 1024px) */
-@media screen and (max-width: 1024px) {
-  /* here responsive code */
-}
-
 .second-main {
   color: white;
   width: 100%;
@@ -517,4 +510,28 @@ body {
 
 .inn {
   text-align: center;
+}
+
+/* Categories Page */
+
+.cateogy-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Responsive styles */
+
+/* Mobile (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  /* here responsive code */
+}
+
+/* Tablet (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  /* here responsive code */
 }
