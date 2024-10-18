@@ -1,0 +1,132 @@
+@import url("clash-display.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: ClashDisplay-Medium;
+  background: black;
+  height: 100%;
+}
+
+.main--container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+.navbar {
+  width: 83.333333%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.navbar .brand {
+  font-size: 1.5rem;
+  width: 180px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  gap: 32px; /* gap-8 */
+}
+
+.parent--signup {
+  width: 180px;
+  display: flex;
+  justify-content: end;
+}
+
+.sign-up-btn {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 20px;
+  border-radius: 9999px;
+  border: 1px solid black;
+}
+
+.main--heading {
+  width: 83.333333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.heading--badge {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 20px;
+  border-radius: 9999px;
+  border: 1px solid black;
+  z-index: 50;
+}
+
+.mentor--text {
+  font-size: 6rem;
+  font-weight: 500;
+  z-index: 50;
+}
+
+.main--image {
+    width: 420px;
+    z-index: 50;
+}
+
+.circle--bg {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-color: #ddf247;
+    border-radius: 500px;
+    bottom: -320px;
+}
+
+/* Responsive styles */
+
+/* Mobile (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  /* here responsive code */
+}
+
+/* Tablet (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  /* here responsive code */
+}
