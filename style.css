@@ -225,20 +225,56 @@ body {
   color: #323232;
   background: #fff;
   width: 280px;
-  height: 320px;
+  height: auto;
+  min-height: 320px;
   background: #fff;
   border: 2px solid #323232;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   transition: 0.1s ease-in-out 0.1s;
+  padding: 14px;
 }
 
 .card:hover {
   border: 2px solid #323232;
   box-shadow: 4px 4px #323232;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #323232;
+}
+
+.card--content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.card--content .profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.view--btn {
+  padding: .3rem 1rem;
+  border: 1px solid #101010;
+  color: #101010;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.view--btn:hover {
+  background-color: #ddf247;
+  /* box-shadow: 2px 2px #323232; */
 }
 
 .yellow--card {
