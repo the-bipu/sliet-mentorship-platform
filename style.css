@@ -9,7 +9,7 @@
 html,
 body {
   font-family: ClashDisplay-Medium;
-  background: black;
+  background: #101010;
   height: 100%;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .navbar {
-  width: 83.333333%;
+  width: 83%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -65,8 +65,8 @@ body {
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .parent--signup {
@@ -86,7 +86,7 @@ body {
 }
 
 .main--heading {
-  width: 83.333333%;
+  width: 83%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,17 +113,212 @@ body {
 }
 
 .main--image {
-    width: 420px;
-    z-index: 50;
+  width: 420px;
+  z-index: 50;
 }
 
 .circle--bg {
-    position: absolute;
-    width: 700px;
-    height: 700px;
-    background-color: #ddf247;
-    border-radius: 500px;
-    bottom: -320px;
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  background-color: #ddf247;
+  border-radius: 500px;
+  bottom: -320px;
+}
+
+.second--section {
+  width: 90%;
+  background: white;
+  margin: 80px 0;
+  padding: 96px 0;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.second--heading {
+  font-size: 4rem;
+  font-weight: 800;
+  z-index: 50;
+}
+
+.second--para {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 90px;
+}
+
+.third--section {
+  padding: 96px 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 180px;
+  position: relative;
+}
+
+.third--heading {
+  width: 83%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.third--titles {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.third--badge-parent {
+  width: auto;
+}
+
+.third--badge {
+  max-width: 270px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 20px;
+  border-radius: 9999px;
+  border: 1px solid black;
+  z-index: 50;
+}
+
+.third--title-main {
+  font-size: 3rem;
+  font-weight: 800;
+  z-index: 50;
+}
+
+.redirect-btn {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Cards code starts from here */
+
+.cards--group {
+  width: 83%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 44px 0;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.card {
+  color: #323232;
+  background: #fff;
+  width: 280px;
+  height: 320px;
+  background: #fff;
+  border: 2px solid #323232;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s ease-in-out 0.1s;
+}
+
+.card:hover {
+  border: 2px solid #323232;
+  box-shadow: 4px 4px #323232;
+}
+
+.yellow--card {
+  position: absolute;
+  width: 75%;
+  height: auto;
+  background-color: #ddf247;
+  bottom: -140px;
+  min-height: 300px;
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow--card-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.yellow--card-desc {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.mentor--btn {
+  width: auto;
+  padding: 10px 32px;
+  border: 2px solid #323232;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 83%;
+  height: auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  margin-top: 160px;
+}
+
+.footer--items {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.copyright {
+  width: 83%;
+  padding: 20px 25px;
+  background: #323232;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: 100;
+  border-radius: 10px;
+  margin-bottom: 32px;
+  color: white;
+}
+
+.footer--redirects {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
 }
 
 /* Responsive styles */
@@ -136,4 +331,134 @@ body {
 /* Tablet (max-width: 1024px) */
 @media screen and (max-width: 1024px) {
   /* here responsive code */
+}
+
+.second-main {
+  color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.second-main-top {
+  width: 83%;
+  display: flex;
+  gap: 1rem;
+  height: 250px;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.left--title {
+  font-size: 2.3rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+}
+
+.left p {
+  color: #939393;
+}
+
+.percentage {
+  display: flex;
+  gap: 1rem;
+}
+
+.percentage .b1 {
+  font-size: 2.3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.percentage .b1 .arrow {
+  color: #ddf247;
+}
+
+.right {
+  width: 60%;
+  display: flex;
+  gap: 2rem;
+}
+
+.rateBox1 {
+  border: 2px solid rgb(192, 188, 188);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 1.6rem;
+}
+
+.rateBox1:hover {
+  background-color: rgb(25, 24, 24);
+}
+
+.review-text {
+  color: #939393;
+}
+
+.b2 {
+  border-left: 1px solid white;
+  padding-left: 0.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.b2 p {
+  font-size: small;
+}
+
+.stars {
+  color: yellow;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.second-main-bottom {
+  margin-top: 4rem;
+  width: 83%;
+  display: flex;
+  justify-content: center;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: rgb(39, 38, 38);
+  border-radius: 8rem;
+  padding: 2rem 5rem;
+}
+
+.stat li {
+  list-style: none;
+  font-size: 2rem;
+  color: yellowgreen;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.inn {
+  text-align: center;
 }
