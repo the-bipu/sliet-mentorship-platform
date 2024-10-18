@@ -38,6 +38,7 @@ body {
   background-color: white;
   border-bottom-left-radius: 200px;
   border-bottom-right-radius: 200px;
+  overflow: hidden;
 }
 
 .navbar {
@@ -60,7 +61,12 @@ body {
   display: flex;
   flex-direction: row;
   font-size: 18px;
-  gap: 32px; /* gap-8 */
+  gap: 32px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
 }
 
 .parent--signup {
@@ -86,6 +92,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 32px;
+  position: relative;
 }
 
 .heading--badge {
