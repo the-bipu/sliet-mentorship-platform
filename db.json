@@ -1,0 +1,46 @@
+{
+    "mentorData": [
+      {
+        "name": "Dr. Manikant Paswan",
+        "title": "Director",
+        "image": "./images/mentors/director-sahab.jpeg"
+      },
+      {
+        "name": "Prof. Prince Yadav",
+        "title": "Prim-minister, India",
+        "image": "./images/mentors/director-sahab.jpeg"
+      },
+      {
+        "name": "Peon Bipansu Das",
+        "title": "Peon, Sliet",
+        "image": "./images/mentors/director-sahab.jpeg"
+      },
+      {
+        "name": "Peon Ravi Das",
+        "title": "Peon, Sliet",
+        "image": "./images/mentors/director-sahab.jpeg"
+      }
+    ],
+    "mentorCategory":[
+      {
+        "name": "Peon Ravi Das",
+        "title": "Peon, Sliet",
+        "image": "./images/mentors/director-sahab.jpeg"
+      },
+      {
+        "name": "Peon Ravi Das",
+        "title": "Peon, Sliet",
+        "image": "./images/mentors/director-sahab.jpeg"
+      },
+      {
+        "name": "Peon Ravi Das",
+        "title": "Peon, Sliet",
+        "image": "./images/mentors/director-sahab.jpeg"
+      },
+      {
+        "name": "Peon Ravi Das",
+        "title": "Peon, Sliet",
+        "image": "./images/mentors/director-sahab.jpeg"
+      }
+    ]
+  }
