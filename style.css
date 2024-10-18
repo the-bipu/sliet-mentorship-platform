@@ -325,6 +325,17 @@ body {
   margin-top: 160px;
 }
 
+.footer--title {
+  width: 83%;
+  font-size: 7rem;
+  color: white;
+  text-align: right;
+}
+
+.footer--title span {
+  width: 100%;
+}
+
 .footer--items {
   margin-top: 10px;
   font-size: 1rem;
@@ -333,6 +344,15 @@ body {
   flex-direction: column;
   gap: 6px;
   cursor: pointer;
+}
+
+.footer--section {
+  width: 22%;
+  height: auto;
+}
+
+.footer--section-last {
+  width: 34%;
 }
 
 .copyright {
