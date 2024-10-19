@@ -740,6 +740,7 @@ select {
   .main-section {
     min-width: 100vw;
     height: auto;
+    min-height: auto;
   }
 
   .nav-links {
