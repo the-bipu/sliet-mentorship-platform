@@ -27,16 +27,17 @@
     gap: 2.5rem;
 }
 
+
 .top-left{
     width: 30%;
 }
 
 .top-left img{
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
-  object-fit: cover;
-  border: 1px solid black;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 1px solid black;
 }
 
 .top-right{
@@ -113,4 +114,37 @@
     font-size: 4rem;
     font-weight: 400;
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) { 
+    .top-content {
+        flex-direction: column;
+    }
+
+    .top-left {
+        width: 100%;
+    }
+
+    .top-right {
+        width: 100%;
+    }
+
+    .detail{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .edu{
+        width: 100%;
+    }
+
+    .exp{
+        width: 100%;
+    }
+    
+    .publi{
+        width: 100%;
+    }
 }
