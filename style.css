@@ -78,6 +78,8 @@ body {
   width: 180px;
   display: flex;
   justify-content: end;
+  text-decoration: none;
+  color: black;
 }
 
 .sign-up-btn {
@@ -88,6 +90,7 @@ body {
   padding: 4px 20px;
   border-radius: 9999px;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .main--heading {
@@ -270,7 +273,7 @@ body {
 }
 
 .view--btn {
-  padding: .3rem 1rem;
+  padding: 0.3rem 1rem;
   border: 1px solid #101010;
   color: #101010;
   border-radius: 3rem;
@@ -358,6 +361,26 @@ body {
 
 .footer--section-last {
   width: 34%;
+}
+
+.footer--socials {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.footer--socials div {
+  background-color: #282828;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .copyright {
@@ -514,9 +537,9 @@ body {
 
 /* Categories Page */
 
-.cateogy-section {
+.category-section {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -524,11 +547,164 @@ body {
   overflow: hidden;
 }
 
+.faqs--section {
+  width: 90%;
+  background: #eaeaea;
+  color: rgb(28, 28, 28);
+  margin: 80px 0;
+  padding: 56px 0;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.heading--text {
+  font-size: 5rem;
+  font-weight: 500;
+  z-index: 50;
+  margin-top: 1rem;
+}
+
+.faqs--heading-badge {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 20px;
+  border-radius: 9999px;
+  border: 1px solid white;
+  background-color: white;
+  color: #101010;
+  z-index: 50;
+}
+
+.faqs--title-main {
+  font-size: 4rem;
+}
+
+.faqs--desc-main {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+}
+
+.faq--item {
+  width: 83%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.faq--question {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.faq--answer {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Booking page css here  */
+
+.faqs--heading {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  position: relative;
+}
+
+#mentorForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs-group {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 49%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.booked--card {
+  background-color: white;
+  padding: 2rem;
+}
+
 /* Responsive styles */
 
 /* Mobile (max-width: 768px) */
 @media screen and (max-width: 768px) {
   /* here responsive code */
+
+  .faqs--title-main {
+    font-size: 24px;
+  }
+
+  .faq--question {
+    font-size: 18px;
+  }
+
+  .faq--answer {
+    font-size: 14px;
+  }
+
+  .faqs--section {
+    padding: 20px;
+  }
 }
 
 /* Tablet (max-width: 1024px) */
