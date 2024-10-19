@@ -731,6 +731,11 @@ select {
   padding: 2rem;
 }
 
+.footer--items a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Responsive styles */
 
 /* Mobile (max-width: 768px) */
