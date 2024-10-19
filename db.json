@@ -1,46 +1,168 @@
 {
-    "mentorData": [
-      {
-        "name": "Dr. Manikant Paswan",
-        "title": "Director",
-        "image": "./images/mentors/director-sahab.jpeg"
-      },
-      {
-        "name": "Dr. Birmohan Singh",
-        "title": "Professor",
-        "image": "./images/mentors/director-sahab.jpeg"
-      },
-      {
-        "name": "Dr. Manikant Paswan",
-        "title": "Director",
-        "image": "./images/mentors/director-sahab.jpeg"
-      },
-      {
-        "name": "Dr. Birmohan Singh",
-        "title": "Professor",
-        "image": "./images/mentors/director-sahab.jpeg"
-      }
-    ],
-    "mentorCategory":[
-      {
-        "image": "./images/category/data-science.png",
-        "title": "Data Science",
-        "booking": "65 Bookings"
-      },
-      {
-        "image": "./images/category/machine-learning.png",
-        "title": "Machine Learning",
-        "booking": "35 Bookings"
-      },
-      {
-        "image": "./images/category/website-development.png",
-        "title": "Web Development",
-        "booking": "254 Bookings"
-      },
-      {
-        "image": "./images/category/cybersecurity.png",
-        "title": "Cyber Security",
-        "booking": "78 Bookings"
-      }
-    ]
-  }
+  "mentorData": [
+    {
+      "name": "Dr. Manikant Paswan",
+      "title": "Director",
+      "image": "./images/mentors/director-sahab.jpeg"
+    },
+    {
+      "name": "Dr. Birmohan Singh",
+      "title": "Professor",
+      "image": "./images/mentors/director-sahab.jpeg"
+    },
+    {
+      "name": "Dr. Manikant Paswan",
+      "title": "Director",
+      "image": "./images/mentors/director-sahab.jpeg"
+    },
+    {
+      "name": "Dr. Birmohan Singh",
+      "title": "Professor",
+      "image": "./images/mentors/director-sahab.jpeg"
+    }
+  ],
+  "mentorCategory": [
+    {
+      "image": "./images/category/data-science.png",
+      "title": "Data Science",
+      "booking": "65 Bookings"
+    },
+    {
+      "image": "./images/category/machine-learning.png",
+      "title": "Machine Learning",
+      "booking": "35 Bookings"
+    },
+    {
+      "image": "./images/category/website-development.png",
+      "title": "Web Development",
+      "booking": "254 Bookings"
+    },
+    {
+      "image": "./images/category/cybersecurity.png",
+      "title": "Cyber Security",
+      "booking": "78 Bookings"
+    }
+  ],
+  "mentor_ListData": [
+    {
+      "name": "Dr. Mani Kant Paswan",
+      "position": "Director",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikant-paswan.html"
+    },
+    {
+      "name": "Dr. Birmohan Singh",
+      "position": "Prof.",
+      "image": "./images/mentors/birmohan-singh.jpg",
+      "linkToViewPage": "/faculty/birmohan-singh.html"
+    },
+    {
+      "name": "Dr. Damanpreet Singh",
+      "position": "Prof.",
+      "image": "./images/mentors/damanpreet-singh.jpg",
+      "linkToViewPage": "/faculty/damanpreet-singh.html"
+    },
+    {
+      "name": "Dr. Manoj Sachan",
+      "position": "Prof.",
+      "image": "./images/mentors/manoj-sachan.jpg",
+      "linkToViewPage": "/faculty/manoj-sachan.html"
+    },
+    {
+      "name": "Dr. Major Goraya",
+      "position": "Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Dr. Gurjinder Kaur",
+      "position": "Assoc. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Dr. Amar Nath",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Dr. Jagdeep Singh",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Dr. Manminder Singh",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Dr. Preetpal Kaur",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Dr. Tajinder Singh",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Dr. Utkarsh",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Dr. V.K. Verma",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Jaspal Singh",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Rahul Gautam",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Dr. Jatinder Pal Singh",
+      "position": "Asst. Prof",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Sukhpreet Singh",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Chinu",
+      "position": "Guest Faculty",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Dr. Vikash Garg",
+      "position": "Guest Faculty",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    },
+    {
+      "name": "Sunita Rani",
+      "position": "Guest Faculty",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "/faculty/manikantPaswan.html"
+    }
+  ]
+}
