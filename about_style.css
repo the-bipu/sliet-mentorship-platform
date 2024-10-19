@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* about page styling */
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 4rem 0;  
+  }
+  
+  .about-section img{
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .common-about-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .dett{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .bipansu{
+    width: 27%;
+  }
+  
+  .prince{
+    width: 27%;
+  }
+  
+  .abhishek{
+    width: 27%;
+  }
+
+  .about-copyR{
+    margin-top: 3rem;
+  }
+
+  /* media query */
+
+  @media screen and (max-width: 1080px) {
+    .about-section{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .bipansu{
+        width: 100%;
+    }
+
+    .prince{
+        width: 100%;
+      }
+      
+      .abhishek{
+        width: 100%;
+      }
+  }
