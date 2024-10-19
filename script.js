@@ -24,9 +24,9 @@ fetch("db.json")
         <div class="card--content">
           <div class="profile">
             <span>${mentor.name}</span>
-            <span>${mentor.title}</span>
+            <span>${mentor.position}</span>
           </div>
-          <div class="view--btn">View</div>
+          <a class="view--btn" style="text-decoration:none" href="${mentor.linkToViewPage}">View</a>
         </div>`;
 
       mentorDataContainer.appendChild(card);
@@ -47,7 +47,7 @@ fetch("db.json")
           <div class="view--btn">View</div>
         </div>`;
 
-        mentorCategoryContainer.appendChild(card);
+      mentorCategoryContainer.appendChild(card);
     });
   })
   .catch((error) => console.error("Error fetching mentor data:", error));

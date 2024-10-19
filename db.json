@@ -1,24 +1,28 @@
 {
   "mentorData": [
     {
-      "name": "Dr. Manikant Paswan",
-      "title": "Director",
-      "image": "./images/mentors/director-sahab.jpeg"
+      "name": "Dr. Mani Kant Paswan",
+      "position": "Director",
+      "image": "./images/mentors/director-sahab.jpeg",
+      "linkToViewPage": "./faculty/manikant-paswan.html"
     },
     {
       "name": "Dr. Birmohan Singh",
-      "title": "Professor",
-      "image": "./images/mentors/director-sahab.jpeg"
+      "position": "Prof. (HOD CSE)",
+      "image": "./images/mentors/birmohan-singh.jpg",
+      "linkToViewPage": "./faculty/birmohan-singh.html"
     },
     {
-      "name": "Dr. Manikant Paswan",
-      "title": "Director",
-      "image": "./images/mentors/director-sahab.jpeg"
+      "name": "Dr. Damanpreet Singh",
+      "position": "Prof. CSE",
+      "image": "./images/mentors/damanpreet-singh.jpg",
+      "linkToViewPage": "./faculty/damanpreet-singh.html"
     },
     {
-      "name": "Dr. Birmohan Singh",
-      "title": "Professor",
-      "image": "./images/mentors/director-sahab.jpeg"
+      "name": "Dr. Manoj Sachan",
+      "position": "Prof. CSE",
+      "image": "./images/mentors/manoj-sachan.jpg",
+      "linkToViewPage": "./faculty/manoj-sachan.html"
     }
   ],
   "mentorCategory": [
@@ -48,121 +52,121 @@
       "name": "Dr. Mani Kant Paswan",
       "position": "Director",
       "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikant-paswan.html"
+      "linkToViewPage": "./faculty/manikant-paswan.html"
     },
     {
       "name": "Dr. Birmohan Singh",
       "position": "Prof.",
       "image": "./images/mentors/birmohan-singh.jpg",
-      "linkToViewPage": "/faculty/birmohan-singh.html"
+      "linkToViewPage": "./faculty/birmohan-singh.html"
     },
     {
       "name": "Dr. Damanpreet Singh",
       "position": "Prof.",
       "image": "./images/mentors/damanpreet-singh.jpg",
-      "linkToViewPage": "/faculty/damanpreet-singh.html"
+      "linkToViewPage": "./faculty/damanpreet-singh.html"
     },
     {
       "name": "Dr. Manoj Sachan",
       "position": "Prof.",
       "image": "./images/mentors/manoj-sachan.jpg",
-      "linkToViewPage": "/faculty/manoj-sachan.html"
+      "linkToViewPage": "./faculty/manoj-sachan.html"
     },
     {
       "name": "Dr. Major Goraya",
       "position": "Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/major-singh.jpg",
+      "linkToViewPage": "./faculty/major-singh.html"
     },
     {
       "name": "Dr. Gurjinder Kaur",
       "position": "Assoc. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/gurjinder-kaur.jpg",
+      "linkToViewPage": "./faculty/gurjinder-kaur.html"
     },
     {
       "name": "Dr. Amar Nath",
       "position": "Asst. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/amarnath.jpg",
+      "linkToViewPage": "./faculty/amarnath.html"
     },
     {
       "name": "Dr. Jagdeep Singh",
       "position": "Asst. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/jagdeep-singh.jpg",
+      "linkToViewPage": "./faculty/jagdeep-singh.html"
     },
     {
       "name": "Dr. Manminder Singh",
       "position": "Asst. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/manminder-singh.jpg",
+      "linkToViewPage": "./faculty/manminder-singh.html"
     },
     {
       "name": "Dr. Preetpal Kaur",
       "position": "Asst. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
-    },
-    {
-      "name": "Dr. Tajinder Singh",
-      "position": "Asst. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
-    },
-    {
-      "name": "Dr. Utkarsh",
-      "position": "Asst. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
-    },
-    {
-      "name": "Dr. V.K. Verma",
-      "position": "Asst. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/preetpal-kaur.jpg",
+      "linkToViewPage": "./faculty/preetpal-kaur.html"
     },
     {
       "name": "Jaspal Singh",
       "position": "Asst. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/jaspal-singh.jpg",
+      "linkToViewPage": "./faculty/jaspal-singh.html"
+    },
+    {
+      "name": "Dr. Tajinder Singh",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/tajinder-singh.jpg",
+      "linkToViewPage": "./faculty/tajinder-singh.html"
+    },
+    {
+      "name": "Dr. Utkarsh",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/utkarsh.jpg",
+      "linkToViewPage": "./faculty/utkarsh.html"
+    },
+    {
+      "name": "Dr. V.K. Verma",
+      "position": "Asst. Prof.",
+      "image": "./images/mentors/vk-verma.jpg",
+      "linkToViewPage": "./faculty/vk-verma.html"
     },
     {
       "name": "Rahul Gautam",
       "position": "Asst. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/rahul-gautam.jpg",
+      "linkToViewPage": "./faculty/rahul-gautam.html"
     },
     {
       "name": "Dr. Jatinder Pal Singh",
       "position": "Asst. Prof",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/jatinderpal-singh.jpg",
+      "linkToViewPage": "./faculty/jatinderpal-singh.html"
     },
     {
       "name": "Sukhpreet Singh",
       "position": "Asst. Prof.",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/sukhpreet-singh.jpg",
+      "linkToViewPage": "./faculty/sukhpreet-singh.html"
     },
     {
       "name": "Chinu",
       "position": "Guest Faculty",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/chinu.jpg",
+      "linkToViewPage": "./faculty/chinu.html"
     },
     {
       "name": "Dr. Vikash Garg",
       "position": "Guest Faculty",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/vikash-garg.jpg",
+      "linkToViewPage": "./faculty/vikash-garg.html"
     },
     {
       "name": "Sunita Rani",
       "position": "Guest Faculty",
-      "image": "./images/mentors/director-sahab.jpeg",
-      "linkToViewPage": "/faculty/manikantPaswan.html"
+      "image": "./images/mentors/sunita-rani.jpg",
+      "linkToViewPage": "./faculty/sunita-rani.html"
     }
   ]
 }
