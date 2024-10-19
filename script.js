@@ -1,3 +1,10 @@
+const menuToggle = document.getElementById("menuToggle");
+const mobileMenu = document.getElementById("mobileMenu");
+
+menuToggle.addEventListener("click", function () {
+  mobileMenu.classList.toggle("show");
+});
+
 // Fetching mentor data
 fetch("db.json")
   .then((response) => response.json())

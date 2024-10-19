@@ -845,6 +845,20 @@ select {
     width: 100%;
   }
 
+  .tabs-group {
+    width: 100%;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .faqs--section {
+    border-radius: 20px;
+    padding: 32px 24px;
+  }
+
   .faqs--title-main {
     font-size: 24px;
   }
@@ -855,10 +869,6 @@ select {
 
   .faq--answer {
     font-size: 14px;
-  }
-
-  .faqs--section {
-    padding: 20px;
   }
 
   .third--section {
