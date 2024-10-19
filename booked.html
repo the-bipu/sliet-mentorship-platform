@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation | SLIET Mentors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main--container">
+
+        <div class="content">
+            <div class="category-section">
+
+                <nav class="navbar">
+                    <a href="index.html">
+                        <div class="brand">Sliet Mentors</div>
+                    </a>
+                    <div class="nav-links">
+                        <a href="./mentor.html">Mentors</a>
+                        <a href="./category.html">Category</a>
+                        <a href="./faqs.html">Faqs</a>
+                    </div>
+                    <a href="./booking.html" class="parent--signup">
+                        <div class="sign-up-btn">Book your slot</div>
+                    </a>
+                </nav>
+
+                <div class="faqs--section">
+                    <div class="main--heading">
+                        <div class="heading--badge">Booked Slots</div>
+                        <div class="heading--text">Your Booked Slots</div>
+
+                        <div id="confirmationMessage" class="booked--card"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Retrieve the stored data from localStorage
+        const bookingData = JSON.parse(localStorage.getItem('mentorBookingData'));
+
+        // Check if data exists and display it
+        if (bookingData) {
+            const confirmationMessage = `
+                <p><strong>Name:</strong> ${bookingData.name}</p>
+                <p><strong>Phone:</strong> ${bookingData.phone}</p>
+                <p><strong>Email:</strong> ${bookingData.email}</p>
+                <p><strong>Department:</strong> ${bookingData.department}</p>
+                <p><strong>Year:</strong> ${bookingData.year}</p>
+                <p><strong>Registration Number:</strong> ${bookingData.regno}</p>
+                <p><strong>Mentor:</strong> ${bookingData.mentor}</p>
+                <p><strong>Session:</strong> ${bookingData.session}</p>
+            `;
+            document.getElementById('confirmationMessage').innerHTML = confirmationMessage;
+        } else {
+            document.getElementById('confirmationMessage').innerHTML = '<p>No booking data found.</p>';
+        }
+    </script>
+</body>
+
+</html>

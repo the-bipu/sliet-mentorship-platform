@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faqs | SLIET Mentors | 2024</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="main--container">
+      <div class="content">
+        <div class="category-section">
+          <nav class="navbar">
+            <a href="index.html">
+              <div class="brand">Sliet Mentors</div>
+            </a>
+            <div class="nav-links">
+              <a href="./mentor.html">Mentors</a>
+              <a href="./category.html">Category</a>
+              <a href="./faqs.html">Faqs</a>
+            </div>
+            <a href="./booking.html" class="parent--signup">
+              <div class="sign-up-btn">Book your slot</div>
+            </a>
+          </nav>
+
+          <div class="faqs--heading">
+            <div class="heading--badge">Welcome to MentorHub</div>
+            <div class="heading--text">Mentor Booking Form</div>
+
+            <div class="faqs--section">
+              <form id="mentorForm">
+                <div class="tabs-group">
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" required />
+                  </div>
+                </div>
+
+                <div class="tabs-group">
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      pattern="[a-zA-Z0-9._%+-]+@sliet\.ac\.in"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="department">Department:</label>
+                    <input type="text" id="department" required />
+                  </div>
+                </div>
+
+                <div class="tabs-group">
+                  <div class="form-group">
+                    <label for="year">Year:</label>
+                    <input type="text" id="year" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="regno">Registration Number:</label>
+                    <input type="text" id="regno" required />
+                  </div>
+                </div>
+
+                <div class="tabs-group">
+                  <div class="form-group">
+                    <label for="mentor">Select Mentor:</label>
+                    <select id="mentor" required>
+                      <option value="">-- Select a Mentor --</option>
+                      <option value="Dr. Manikant Paswan">
+                        Dr. Manikant Paswan
+                      </option>
+                      <option value="Dr. Birmohan Singh">
+                        Dr. Birmohan Singh
+                      </option>
+                      <option value="Dr. Anjali Mehta">Dr. Anjali Mehta</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="session">Select Session:</label>
+                    <select id="session" required>
+                      <option value="">-- Select a Session --</option>
+                      <option value="09:00 AM">09:00 AM</option>
+                      <option value="10:00 AM">10:00 AM</option>
+                      <option value="11:00 AM">11:00 AM</option>
+                      <option value="12:00 PM">12:00 PM</option>
+                      <option value="01:00 PM">01:00 PM</option>
+                      <option value="02:00 PM">02:00 PM</option>
+                      <option value="03:00 PM">03:00 PM</option>
+                      <option value="04:00 PM">04:00 PM</option>
+                      <option value="05:00 PM">05:00 PM</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <button type="submit" class="submit-btn">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("mentorForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const formData = {
+            name: document.getElementById("name").value,
+            phone: document.getElementById("phone").value,
+            email: document.getElementById("email").value,
+            department: document.getElementById("department").value,
+            year: document.getElementById("year").value,
+            regno: document.getElementById("regno").value,
+            mentor: document.getElementById("mentor").value,
+            session: document.getElementById("session").value,
+          };
+
+          // Store the form data in localStorage
+          localStorage.setItem("mentorBookingData", JSON.stringify(formData));
+
+          alert(
+            "Form submitted successfully! Data has been saved in localStorage."
+          );
+
+          // Reset the form fields
+          document.getElementById("mentorForm").reset();
+
+          // Redirect to booked.html
+          window.location.href = "./booked.html";
+        });
+    </script>
+  </body>
+</html>
