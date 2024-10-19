@@ -1,0 +1,102 @@
+@import url("./css/clash-display.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-mentor-page{
+    width: 83%;
+    margin-top: 4rem;
+}
+
+.top-content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2.5rem;
+}
+
+.top-left{
+    width: 30%;
+}
+
+.top-left img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.top-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.book-btn{
+    margin-top: 0.5rem;
+    width: 42%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    background-color: white;
+    color: rgb(23, 3, 3);
+}
+
+.book-btn:hover{
+    background-color: rgb(244, 237, 237);
+}
+
+.bottom-content{
+    margin-top: 4rem;
+    width: 100%;
+    background-color: #101010;
+    color: white;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-content h1{
+    width: 83%;
+}
+
+.bottom-content p{
+    font-weight: 300;
+    word-spacing: 0.2rem;
+    line-height: 1.6rem;
+    width: 83%;
+}
+
+.detail{
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu{
+    width: 27%;
+}
+.exp{
+    width: 27%;
+}
+.publi{
+    width: 27%;
+}
+
+.insider-detail h1{
+    color: rgb(135, 188, 56);
+    margin-bottom: 0.8rem;
+}
+
+.about-heading{
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
